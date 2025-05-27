@@ -1,0 +1,49 @@
+@media (min-width= 640px){
+  .header h1 span{
+      font-size: 4.4rem ;
+      font-weight: 700px;
+  }
+}
+
+.header h1 span::after{
+  content: " ";
+  animation: headers 8s infinite;
+  animation-delay: 0.4s;
+}
+@keyframes headers{
+  0%{ content: "|";}
+  4%{ content: " R|";}
+  8%{ content: " R|";}
+  12%{ content: " Re|";}
+  16%{ content: " Re|";}
+  20%{ content: " Rea|";}
+  24%{ content: " Rea|";}
+  28%{ content: " Reac|";}
+  32%{ content: " Reac|";}
+  36%{ content: " React|";}
+  40%{ content: " React|";}
+  42%{ content: " React j|";}
+  44%{ content: " React js|";}
+  46%{ content: " React js|";}
+  54%{ content: " A|";}
+  58%{ content: " A|";}
+  62%{ content: " An|";}
+  66%{ content: " An|";}
+  70%{ content: " Ang|";}
+  73%{ content: " Ang|";}
+  77%{ content: " Angu|";}
+  80%{ content: " Angu|";}
+  83%{ content: " Angul|";}
+  85%{ content:  " Angul|";}
+  89%{ content:  " Angula|";}
+  92%{ content: " Angula|";}
+  95%{ content: " Angular|";}
+  100%{ content: " Angular|";}
+
+
+
+}
+.text-header
+{
+  line-height:1,9px;
+}
