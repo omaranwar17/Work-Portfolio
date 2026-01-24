@@ -12,7 +12,7 @@ export class AboutComponent {
   showDialog = false;
 
 openCV():void{
-    window.open('assets/cv.pdf', '_blank');
+    window.open('assets/omarAlkerm-cv.pdf', '_blank');
     this.showDialog = false;
 }
 }
