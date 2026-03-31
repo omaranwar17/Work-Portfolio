@@ -1,10 +1,18 @@
-import { ApplicationConfig } from '@angular/core';
+import { APP_INITIALIZER, ApplicationConfig } from '@angular/core';
 import { provideRouter } from '@angular/router';
 
 import { routes } from './app.routes';
-import { provideClientHydration } from '@angular/platform-browser';
+import { themeInitFactory } from './core/theme/theme-init.factory';
+import { ThemeService } from './core/theme/theme.service';
 
 export const appConfig: ApplicationConfig = {
-  providers: [provideRouter(routes)]
-    
+  providers: [
+    provideRouter(routes),
+    {
+      provide: APP_INITIALIZER,
+      useFactory: themeInitFactory,
+      deps: [ThemeService],
+      multi: true,
+    },
+  ],
 };

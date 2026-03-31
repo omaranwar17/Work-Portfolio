@@ -1,0 +1,49 @@
+// SCSS theme maps → emitted as CSS custom properties on html[data-theme]
+
+$theme-dark: (
+  bg-page: #0d0d0d,
+  fg: #ffffff,
+  border: #ffffff,
+  surface: #000000,
+  accent: #facc15,
+  accent-contrast: #000000,
+  nav-surface: #ffffff,
+  nav-link: #000000,
+  skill-icon: #1f2937,
+  line: #ffffff,
+  overlay: rgb(0 0 0 / 60%),
+  dialog-surface: #ffffff,
+  dialog-border: #e5e7eb,
+  dialog-heading: #1f2937,
+  dialog-body: #4b5563,
+  badge-on-accent: #ffffff,
+  menu-accent: #eab308,
+  title-line: #ffffff,
+);
+
+$theme-light: (
+  bg-page: #f5f5f5,
+  fg: #111827,
+  border: #d1d5db,
+  surface: #ffffff,
+  accent: #eab308,
+  accent-contrast: #111827,
+  nav-surface: #ffffff,
+  nav-link: #111827,
+  skill-icon: #e5e7eb,
+  line: #374151,
+  overlay: rgb(0 0 0 / 40%),
+  dialog-surface: #ffffff,
+  dialog-border: #e5e7eb,
+  dialog-heading: #1f2937,
+  dialog-body: #4b5563,
+  badge-on-accent: #111827,
+  menu-accent: #ca8a04,
+  title-line: #111827,
+);
+
+@mixin emit-theme-vars($map) {
+  @each $name, $value in $map {
+    --color-#{$name}: #{$value};
+  }
+}

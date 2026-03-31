@@ -1,0 +1,37 @@
+@use './styles/theme' as theme;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  @include theme.emit-theme-vars(theme.$theme-dark);
+}
+
+html[data-theme='dark'] {
+  @include theme.emit-theme-vars(theme.$theme-dark);
+}
+
+html[data-theme='light'] {
+  @include theme.emit-theme-vars(theme.$theme-light);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  html,
+  body {
+    font-family: 'Inter', system-ui, sans-serif;
+    background-color: var(--color-bg-page);
+    color: var(--color-fg);
+  }
+
+  app-root {
+    display: block;
+    min-height: 100%;
+  }
+}
