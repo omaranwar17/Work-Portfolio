@@ -1,0 +1,116 @@
+{
+  "navbar": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact",
+    "toggleMenu": "Toggle navigation",
+    "themeSwitchDark": "Switch to dark mode",
+    "themeSwitchLight": "Switch to light mode",
+    "languageLabel": "Language selector",
+    "languageEnglish": "English",
+    "languageArabic": "العربية"
+  },
+  "home": {
+    "tagline": "Web Portfolio",
+    "greeting": "Hello, I'm",
+    "name": "Omar Anwar",
+    "headline": "Front-End Developer & UX Enthusiast",
+    "description": "I build modern, responsive web experiences using Angular, Tailwind CSS, and best design practices.",
+    "ctaProjects": "View Projects",
+    "ctaCv": "Download CV"
+  },
+  "about": {
+    "title": "About Me",
+    "intro": "I am a passionate front-end developer who delivers polished portfolio websites, clean UI, and interactive experiences.",
+    "resumeButton": "View Resume",
+    "dialogTitle": "Download CV",
+    "dialogBody": "You can review or download my latest curriculum vitae to learn more about my experience and skill set.",
+    "viewCV": "Open CV",
+    "cancel": "Cancel"
+  },
+  "skills": {
+    "title": "Skills",
+    "subtitle": "Technologies I Use",
+    "description": "A curated set of tools and frameworks I use to deliver professional front-end applications.",
+    "items": {
+      "html": { "label": "HTML", "alt": "HTML" },
+      "css": { "label": "CSS", "alt": "CSS" },
+      "javascript": { "label": "JavaScript", "alt": "JavaScript" },
+      "bootstrap": { "label": "Bootstrap", "alt": "Bootstrap" },
+      "tailwind": { "label": "Tailwind CSS", "alt": "Tailwind CSS" },
+      "jquery": { "label": "jQuery", "alt": "jQuery" },
+      "angular": { "label": "Angular", "alt": "Angular" },
+      "typescript": { "label": "TypeScript", "alt": "TypeScript" },
+      "sass": { "label": "SASS", "alt": "SASS" },
+      "figma": { "label": "Figma", "alt": "Figma" },
+      "git": { "label": "Git", "alt": "Git" },
+      "github": { "label": "GitHub", "alt": "GitHub" },
+      "react": { "label": "React", "alt": "React" },
+      "mui": { "label": "MUI", "alt": "MUI" },
+      "angularMaterial": { "label": "Angular Material", "alt": "Angular Material" }
+    }
+  },
+  "projects": {
+    "label": "Featured Projects",
+    "title": "Portfolio Highlights",
+    "description": "Explore professional work examples built with modern web technologies and responsive design.",
+    "featuredBadge": "Featured",
+    "buttons": {
+      "github": "View Source",
+      "liveDemo": "Live Demo"
+    },
+    "items": {
+      "gameReviews": {
+        "title": "Game Reviews Platform",
+        "description": "Modern gaming discovery platform with responsive UI, categories, reviews, dark mode, and smooth user experience."
+      },
+      "freshCart": {
+        "title": "FreshCart E-Commerce",
+        "description": "Full modern ecommerce app with authentication, products, cart system, dark mode, and responsive shopping experience."
+      },
+      "taskManager": {
+        "title": "Task Management App",
+        "description": "Clean productivity app for managing daily tasks with a polished UI and optimized workflow."
+      },
+      "appStore": {
+        "title": "App Store Platform",
+        "description": "Digital app store interface with responsive browsing, category cards, and polished user experience."
+      }
+    }
+  },
+  "technologies": {
+    "angular": "Angular",
+    "tailwind_css": "Tailwind CSS",
+    "typescript": "TypeScript",
+    "api": "REST API",
+    "rxjs": "RxJS",
+    "rest_api": "REST API",
+    "nextjs": "Next.js",
+    "react": "React",
+    "bootstrap": "Bootstrap"
+  },
+  "contact": {
+    "title": "Contact Me",
+    "description": "Let’s work together on your next web project. Send a message or connect through LinkedIn.",
+    "writeEmail": "Write me an email",
+    "linkedIn": "Connect on LinkedIn",
+    "locationLabel": "Location",
+    "location": "Cairo, Egypt",
+    "phoneLabel": "Phone",
+    "phone": "+20 102 491 5651",
+    "formTitle": "Send a message",
+    "nameLabel": "Your Name",
+    "namePlaceholder": "Enter your name",
+    "emailLabel": "Your Email",
+    "emailPlaceholder": "Enter your email",
+    "messageLabel": "Message",
+    "messagePlaceholder": "Write your message",
+    "required": "This field is required.",
+    "invalidEmail": "Please enter a valid email.",
+    "submitButton": "Send Message",
+    "successMessage": "Your message has been sent successfully.",
+    "errorMessage": "Please correct the errors before sending."
+  }
+}

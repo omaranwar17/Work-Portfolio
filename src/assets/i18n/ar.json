@@ -1,0 +1,116 @@
+{
+  "navbar": {
+    "home": "الرئيسية",
+    "about": "من أنا",
+    "skills": "المهارات",
+    "projects": "المشاريع",
+    "contact": "تواصل",
+    "toggleMenu": "قائمة التنقل",
+    "themeSwitchDark": "التحويل إلى الوضع الداكن",
+    "themeSwitchLight": "التحويل إلى الوضع الفاتح",
+    "languageLabel": "اختيار اللغة",
+    "languageEnglish": "English",
+    "languageArabic": "العربية"
+  },
+  "home": {
+    "tagline": "محفظة الويب",
+    "greeting": "مرحبًا، أنا",
+    "name": "عمر أنور",
+    "headline": "مطور واجهات أمامية ومهتم بتجربة المستخدم",
+    "description": "أصمم تجارب ويب حديثة وسريعة الاستجابة باستخدام Angular وTailwind CSS وأفضل ممارسات التصميم.",
+    "ctaProjects": "عرض المشاريع",
+    "ctaCv": "تحميل السيرة الذاتية"
+  },
+  "about": {
+    "title": "من أنا",
+    "intro": "أنا مطور واجهات أمامية شغوف أقدم مواقع محفظة أنيقة وتجربة مستخدم سلسة وتصميم تفاعلي.",
+    "resumeButton": "عرض السيرة الذاتية",
+    "dialogTitle": "تحميل السيرة الذاتية",
+    "dialogBody": "يمكنك مراجعة أو تنزيل سيرتي الذاتية الأخيرة للاطلاع على خبرتي ومهاراتي.",
+    "viewCV": "فتح السيرة الذاتية",
+    "cancel": "إلغاء"
+  },
+  "skills": {
+    "title": "المهارات",
+    "subtitle": "التقنيات التي أستخدمها",
+    "description": "مجموعة من الأدوات والأطر التي أستخدمها لبناء تطبيقات واجهة أمامية احترافية.",
+    "items": {
+      "html": { "label": "HTML", "alt": "HTML" },
+      "css": { "label": "CSS", "alt": "CSS" },
+      "javascript": { "label": "JavaScript", "alt": "JavaScript" },
+      "bootstrap": { "label": "Bootstrap", "alt": "Bootstrap" },
+      "tailwind": { "label": "Tailwind CSS", "alt": "Tailwind CSS" },
+      "jquery": { "label": "jQuery", "alt": "jQuery" },
+      "angular": { "label": "Angular", "alt": "Angular" },
+      "typescript": { "label": "TypeScript", "alt": "TypeScript" },
+      "sass": { "label": "SASS", "alt": "SASS" },
+      "figma": { "label": "Figma", "alt": "Figma" },
+      "git": { "label": "Git", "alt": "Git" },
+      "github": { "label": "GitHub", "alt": "GitHub" },
+      "react": { "label": "React", "alt": "React" },
+      "mui": { "label": "MUI", "alt": "MUI" },
+      "angularMaterial": { "label": "Angular Material", "alt": "Angular Material" }
+    }
+  },
+  "projects": {
+    "label": "المشاريع المميزة",
+    "title": "أبرز الأعمال",
+    "description": "استعرض أمثلة من الأعمال المهنية التي صممتها باستخدام تقنيات ويب حديثة وتصميم متجاوب.",
+    "featuredBadge": "مميز",
+    "buttons": {
+      "github": "عرض الكود",
+      "liveDemo": "عرض المشروع"
+    },
+    "items": {
+      "gameReviews": {
+        "title": "منصة مراجعات الألعاب",
+        "description": "منصة لاكتشاف الألعاب مع واجهة متجاوبة وفئات ومراجعات ووضع داكن وتجربة مستخدم سلسة."
+      },
+      "freshCart": {
+        "title": "متجر FreshCart الإلكتروني",
+        "description": "تطبيق تجارة إلكترونية حديث بعناصر تسجيل دخول ومنتجات وسلة مشتريات وتصميم متجاوب وتجربة تسوق سلسة."
+      },
+      "taskManager": {
+        "title": "تطبيق إدارة المهام",
+        "description": "تطبيق إنتاجية نظيف لإدارة المهام اليومية بواجهة أنيقة وسير عمل محسّن."
+      },
+      "appStore": {
+        "title": "منصة متجر التطبيقات",
+        "description": "واجهة متجر تطبيقات رقمية مع تصفح متجاوب وبطاقات فئات وتجربة مستخدم مصقولة."
+      }
+    }
+  },
+  "technologies": {
+    "angular": "Angular",
+    "tailwind_css": "Tailwind CSS",
+    "typescript": "TypeScript",
+    "api": "REST API",
+    "rxjs": "RxJS",
+    "rest_api": "REST API",
+    "nextjs": "Next.js",
+    "react": "React",
+    "bootstrap": "Bootstrap"
+  },
+  "contact": {
+    "title": "تواصل معي",
+    "description": "دعنا نعمل معًا على مشروعك القادم. أرسل رسالة أو تواصل معي عبر لينكدإن.",
+    "writeEmail": "أرسل لي بريدًا إلكترونيًا",
+    "linkedIn": "تواصل عبر لينكدإن",
+    "locationLabel": "الموقع",
+    "location": "القاهرة، مصر",
+    "phoneLabel": "الهاتف",
+    "phone": "+20 102 491 5651",
+    "formTitle": "أرسل رسالة",
+    "nameLabel": "اسمك",
+    "namePlaceholder": "أدخل اسمك",
+    "emailLabel": "البريد الإلكتروني",
+    "emailPlaceholder": "أدخل بريدك الإلكتروني",
+    "messageLabel": "الرسالة",
+    "messagePlaceholder": "اكتب رسالتك",
+    "required": "هذا الحقل مطلوب.",
+    "invalidEmail": "يرجى إدخال بريد إلكتروني صالح.",
+    "submitButton": "إرسال الرسالة",
+    "successMessage": "تم إرسال رسالتك بنجاح.",
+    "errorMessage": "يرجى تصحيح الأخطاء قبل الإرسال."
+  }
+}

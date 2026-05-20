@@ -1,18 +1,19 @@
 import { NgIf } from '@angular/common';
 import { Component } from '@angular/core';
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-about',
   standalone: true,
-  imports: [NgIf],
+  imports: [NgIf, TranslateModule],
   templateUrl: './about.component.html',
   styleUrl: './about.component.css'
 })
 export class AboutComponent {
   showDialog = false;
 
-openCV():void{
+  openCV(): void {
     window.open('assets/omarAlkerm-cv.pdf', '_blank');
     this.showDialog = false;
-}
+  }
 }
