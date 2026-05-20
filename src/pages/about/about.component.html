@@ -3,18 +3,21 @@
     class="flex flex-col md:flex-row justify-between items-center px-4 sm:px-6 md:px-24 gap-6 sm:gap-8 relative z-10 text-center md:text-left"
   >
     <div class="w-full md:w-2/3 max-w-2xl py-10">
+      <p class="text-sm uppercase tracking-[0.3em] text-accent font-semibold mb-4">
+        {{ 'about.title' | translate }}
+      </p>
+
       <p class="text-base sm:text-lg leading-relaxed m-0">
-        Hey, my name is Omar Anwar. Driven student leveraging studies in information systems, I am a 24 year old
-        FrontEnd Developer from Egypt. I’m passionate about creating beautiful, intuitive and responsive web apps
-        using modern technologies like Angular, React and Tailwind CSS.
+        {{ 'about.intro' | translate }}
       </p>
 
       <button
         (click)="showDialog = true"
         class="mt-6 sm:mt-8 px-6 py-3 border border-border text-foreground font-bold rounded-md hover:bg-accent hover:text-accent-contrast transition"
       >
-        Resume
+        {{ 'about.resumeButton' | translate }}
       </button>
+
       <div
         *ngIf="showDialog"
         class="fixed inset-0 bg-overlay backdrop-blur-sm flex items-center justify-center z-50"
@@ -22,21 +25,25 @@
         <div
           class="bg-dialog-surface rounded-2xl p-8 w-[90%] max-w-md shadow-2xl border border-dialog-border"
         >
-          <h2 class="text-2xl font-semibold text-dialog-heading mb-4 text-center">View My Resume</h2>
-          <p class="text-dialog-body mb-6 text-center">Would you like to view my CV?</p>
+          <h2 class="text-2xl font-semibold text-dialog-heading mb-4 text-center">
+            {{ 'about.dialogTitle' | translate }}
+          </h2>
+          <p class="text-dialog-body mb-6 text-center">
+            {{ 'about.dialogBody' | translate }}
+          </p>
 
           <div class="flex justify-center gap-4">
             <button
               (click)="openCV()"
               class="bg-green-600 hover:bg-green-700 text-white px-5 py-2 rounded-full transition duration-200"
             >
-              View CV
+              {{ 'about.viewCV' | translate }}
             </button>
             <button
               (click)="showDialog = false"
               class="bg-gray-500 hover:bg-gray-600 text-white px-5 py-2 rounded-full transition duration-200"
             >
-              Cancel
+              {{ 'about.cancel' | translate }}
             </button>
           </div>
         </div>
