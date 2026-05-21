@@ -26,5 +26,10 @@ export class SkillsComponent {
     { icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg', altKey: 'skills.items.react.alt', labelKey: 'skills.items.react.label' },
     { icon: 'https://mui.com/static/logo.png', altKey: 'skills.items.mui.alt', labelKey: 'skills.items.mui.label' },
     { icon: 'https://angular.io/assets/images/logos/angular/angular.svg', altKey: 'skills.items.angularMaterial.alt', labelKey: 'skills.items.angularMaterial.label' },
+    {
+  icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg',
+  altKey: 'skills.java.alt',
+  labelKey: 'Java'
+}
   ];
 }

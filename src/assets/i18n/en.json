@@ -74,6 +74,10 @@
         "title": "Task Management App",
         "description": "Clean productivity app for managing daily tasks with a polished UI and optimized workflow."
       },
+         "weatherApp": {
+      "title": "Weather App",
+      "description": "A modern weather application built with Angular that shows real-time weather and 7-day forecast using Weather API with dark mode support."
+    },
       "appStore": {
         "title": "App Store Platform",
         "description": "Digital app store interface with responsive browsing, category cards, and polished user experience."
