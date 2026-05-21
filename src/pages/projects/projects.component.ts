@@ -28,6 +28,14 @@ export class ProjectsComponent {
     github: 'https://github.com/omaranwar17/Angular-E-Commerce',
     demo: 'https://angular-e-commerce-self.vercel.app/home',
   },
+  {
+  titleKey: 'projects.items.weatherApp.title',
+  descriptionKey: 'projects.items.weatherApp.description',
+  image: 'https://images.unsplash.com/photo-1501630834273-4b5604d2ee31?q=80&w=1200&auto=format&fit=crop',
+  technologies: ['angular', 'tailwind_css', 'typescript', 'weather_api'],
+  github: 'https://github.com/YOUR_USERNAME/weather-app',
+  demo: 'https://weather-app-chi-lac-90.vercel.app/',
+},
 
   {
     titleKey: 'projects.items.taskManager.title',
