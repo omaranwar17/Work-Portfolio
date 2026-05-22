@@ -65,12 +65,19 @@
       </span>
     </h2>
 
-    <!-- Main Heading -->
+
     <h1
-      class="text-4xl  font-extrabold leading-tight bg-gradient-to-r "
-    >
-      {{ 'home.headline' | translate }}
-    </h1>
+  class="text-xl sm:text-2xl md:text-6xl
+  font-extrabold leading-[1.4]
+  
+
+  break-words
+  max-w-4xl
+
+  animate-slideUp delay-200"
+>
+  {{ 'home.headline' | translate }}
+</h1>
 
     <!-- Description -->
     <p
@@ -84,30 +91,44 @@
       class="flex flex-wrap gap-4 animate-slideUp delay-500"
     >
 
-      <a
-        routerLink="/projects"
-        class="group inline-flex items-center justify-center rounded-full bg-accent px-7 py-3 text-black font-semibold transition-all duration-300 hover:scale-105 hover:shadow-[0_0_25px_rgba(34,197,94,0.45)]"
-      >
-        {{ 'home.ctaProjects' | translate }}
+     <a
+  routerLink="/projects"
+  class="group inline-flex items-center justify-center
+  rounded-full bg-accent px-7 py-3
+  text-black font-semibold
+  transition-all duration-300
+  hover:scale-105">
 
-        <i
-          class="fa-solid fa-arrow-right ml-2 transition-transform duration-300 group-hover:translate-x-1"
-        ></i>
-      </a>
+  {{ 'home.ctaProjects' | translate }}
+
+  <i
+    class="fa-solid fa-arrow-right ms-2
+    transition-transform duration-300
+    group-hover:translate-x-1">
+  </i>
+
+</a>
 
 <a
   href="assets/omarAlkerm-cv.pdf"
   target="_blank"
-  class="group inline-flex items-center justify-center rounded-full bg-gray-200/50  px-7 py-3 text-black font-semibold transition-all duration-300 hover:scale-105 hover:shadow-[0_0_25px_rgba(34,197,94,0.45)]"
->
+  class="group inline-flex items-center justify-center
+  rounded-full bg-gray-200/50
+  px-7 py-3
+  text-black dark:text-white
+  font-semibold
+  transition-all duration-300
+  hover:scale-105">
+
   <i
-    class="fa-solid fa-download mr-2
+    class="fa-solid fa-download me-2
     transition-transform duration-300
     group-hover:-translate-y-1
-    group-hover:rotate-6"
-  ></i>
+    group-hover:rotate-6">
+  </i>
 
   {{ 'home.ctaCv' | translate }}
+
 </a>
 
     </div>
