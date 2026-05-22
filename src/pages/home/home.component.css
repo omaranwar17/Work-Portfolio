@@ -94,3 +94,13 @@
 .delay-500 {
   animation-delay: 0.5s;
 }
+
+
+.cv-link {
+  color: black !important;
+  transition: 0.3s;
+    :host-context(.dark-theme) & {
+    color: white !important;
+    }
+}
+
