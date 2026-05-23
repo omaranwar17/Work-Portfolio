@@ -22,14 +22,14 @@
       <h2
         class="text-4xl md:text-5xl lg:text-6xl
         font-extrabold
-        text-black dark:text-accent
+        leading-tight
         mb-6 leading-tight">
 
         {{ 'projects.title' | translate }}
 
       </h2>
 
-      <p class="text-gray-500 dark:text-gray-400 text-lg md:text-xl max-w-3xl mx-auto leading-relaxed">
+      <p class="  sm:text-lg text-base max-w-3xl mx-auto leading-tight">
         {{ 'projects.description' | translate }}
       </p>
 
@@ -78,9 +78,9 @@
 
           <h3
             class="text-2xl md:text-3xl font-bold
-            text-black dark:text-white
+            text-accent 
             mb-4
-            group-hover:text-accent
+            group-hover:text-accent/90
             transition-colors duration-300">
 
             {{ project.titleKey | translate }}
@@ -116,9 +116,9 @@
               [href]="project.github"
               target="_blank"
               class="flex-1 text-center px-6 py-3 rounded-2xl
-              border border-white/10
-              bg-white/10 dark:bg-white/5
-              text-black dark:text-white
+              border border-accent
+              bg-gray-200 
+              text-black
               font-semibold
               transition-all duration-300
               hover:bg-white/20 hover:scale-[1.03]">
