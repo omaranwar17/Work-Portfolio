@@ -7,8 +7,10 @@ $theme-dark: (
   surface: #000000,
   accent: #facc15,
   accent-contrast: #000000,
-  nav-surface: #ffffff,
-  nav-link: #000000,
+
+  nav-surface: rgb(31 41 55 / 50%),
+
+  nav-link: #ffffff,
   skill-icon: #1f2937,
   line: #ffffff,
   overlay: rgb(0 0 0 / 60%),
@@ -28,7 +30,9 @@ $theme-light: (
   surface: #ffffff,
   accent: #eab308,
   accent-contrast: #111827,
-  nav-surface: #ffffff,
+
+  nav-surface: rgb(229 231 235 / 50%),
+
   nav-link: #111827,
   skill-icon: #e5e7eb,
   line: #374151,
