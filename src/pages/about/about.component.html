@@ -2,7 +2,7 @@
 
   <div
     class="flex flex-col md:flex-row justify-between items-center
-    px-4 sm:px-6 md:px-24 gap-10 relative z-10">
+    px-4 sm:px-6 md:px-24 gap-12 relative z-10">
 
     <!-- Text Section -->
     <div
@@ -13,9 +13,13 @@
         {{ 'about.title' | translate }}
       </p>
 
-      <p class="text-base sm:text-lg leading-tight ">
-        {{ 'about.intro' | translate }}
-      </p>
+   
+  <p
+    class="text-base sm:text-lg leading-relaxed"
+    style="text-align: justify;">
+    {{ 'about.intro' | translate }}
+  </p>
+
 
       <button
         (click)="showDialog = true"

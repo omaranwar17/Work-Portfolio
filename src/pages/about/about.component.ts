@@ -13,7 +13,7 @@ export class AboutComponent {
   showDialog = false;
 
   openCV(): void {
-    window.open('assets/Omar-Anwar-Cv.pdf', '_blank');
+    window.open('assets/Omar-AnwarCvpdf', '_blank');
     this.showDialog = false;
   }
 }
