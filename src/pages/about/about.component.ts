@@ -1,5 +1,5 @@
 import { NgIf } from '@angular/common';
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
@@ -9,8 +9,29 @@ import { TranslateModule } from '@ngx-translate/core';
   templateUrl: './about.component.html',
   styleUrl: './about.component.css'
 })
-export class AboutComponent {
+export class AboutComponent implements OnInit {
   showDialog = false;
+  displayedYears = 0;
+
+
+  ngOnInit(): void {
+  this.animateYears();
+}
+
+animateYears(): void {
+  const target = 1;
+  const duration = 1000; 
+  const stepTime = duration / target;
+
+  const interval = setInterval(() => {
+    this.displayedYears++;
+
+    if (this.displayedYears >= target) {
+      clearInterval(interval);
+    }
+  }, stepTime);
+}
+
 
   openCV(): void {
     window.open('assets/Omar-AnwarCv.pdf', '_blank');

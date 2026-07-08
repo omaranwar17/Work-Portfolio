@@ -1,25 +1,39 @@
 <div class="text-foreground m-0 p-0 overflow-x-hidden">
 
-  <div
-    class="flex flex-col md:flex-row justify-between items-center
-    px-4 sm:px-6 md:px-24 gap-12 relative z-10">
+
+  <div class="flex flex-col md:flex-row justify-between items-center px-4 sm:px-6 md:px-24 gap-10 relative z-10">
+
+ 
 
     <!-- Text Section -->
-    <div
-      class="w-full md:w-2/3 max-w-2xl py-10
-      animate-fade-in-up">
+    <div class="w-full md:w-2/3 max-w-2xl py-10 animate-fade-in-up">
 
       <p class="text-sm uppercase tracking-[0.3em] text-accent font-semibold mb-4">
         {{ 'about.title' | translate }}
       </p>
 
-   
-  <p
-    class="text-base sm:text-lg leading-relaxed"
-    style="text-align: justify;">
-    {{ 'about.intro' | translate }}
-  </p>
 
+      <p class="text-base sm:text-lg leading-tight">
+        {{ 'about.intro' | translate }}
+      </p>
+
+   
+
+
+
+      <!-- Experience Badge -->
+      <div class="mt-6 flex items-center gap-4 animate-fade-in-up" style="animation-delay: 0.2s;">
+        <div class="relative flex items-center justify-center w-20 h-20">
+          <div class="absolute inset-0 rounded-full bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 blur-md opacity-50 animate-pulse-slow"></div>
+          <div class="relative w-20 h-20 rounded-full bg-white dark:bg-slate-900 border-2 border-accent flex items-center justify-center shadow-lg">
+            <span class="text-2xl font-extrabold text-accent">{{ displayedYears }}+</span>
+          </div>
+        </div>
+        <div>
+          <p class="text-lg font-bold">{{ 'about.experienceYears' | translate }}</p>
+          <p class="text-sm text-gray-500 dark:text-gray-400">{{ 'about.experienceLabel' | translate }}</p>
+        </div>
+      </div>
 
       <button
         (click)="showDialog = true"
@@ -78,21 +92,17 @@
     </div>
 
     <!-- Image Section -->
-    <div
-      class="w-3/4 sm:w-2/3 md:w-1/3 py-10 flex justify-center">
+    <div class="w-3/4 sm:w-2/3 md:w-1/3 py-10 flex justify-center">
 
-      <div
-        class="relative group animate-fade-in-right">
+      <div class="relative group animate-fade-in-right">
 
-        <!-- Glow effect -->
         <div
           class="absolute -inset-1 bg-gradient-to-r
           from-blue-500 via-purple-500 to-pink-500
           rounded-2xl blur opacity-40 group-hover:opacity-70
-          transition duration-500">
+          transition duration-500 animate-pulse-slow">
         </div>
 
-        <!-- Image Card -->
         <div
           class="relative rounded-2xl overflow-hidden
           shadow-2xl border border-white/20
