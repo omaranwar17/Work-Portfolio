@@ -22,6 +22,7 @@
     "ctaCv": "Download CV"
   },
   "about": {
+
    "title": "About Me",
   "intro": "A dedicated Front-End Developer specializing in Angular and React, focused on building modern, fast, and user-friendly web applications. I turn designs into interactive experiences using clean, scalable code.",
   "experienceYears": "Experience",
@@ -31,6 +32,8 @@
   "dialogBody": "You can review or download my latest curriculum vitae to learn more about my experience and skill set.",
   "viewCV": "Open CV",
   "cancel": "Cancel"
+
+
   },
   "skills": {
     "title": "Skills",
