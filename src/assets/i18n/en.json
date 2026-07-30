@@ -1,6 +1,7 @@
 {
   "navbar": {
     "home": "Home",
+    "omar": "omar",
     "about": "About",
     "skills": "Skills",
     "projects": "Projects",
@@ -13,11 +14,14 @@
     "languageArabic": "العربية"
   },
   "home": {
-    "tagline": "Web Portfolio",
-    "greeting": "Hello, I'm",
-    "name": "Omar Anwar",
-    "headline": "Front-End Developer & UX Enthusiast",
-    "description": "I build modern, responsive web experiences using Angular, React, and best design practices.",
+  
+  "tagline": "Web Portfolio",
+  "greeting": "Hi, I'm",
+  "name": "Omar Anwar",
+  "headline": "Frontend Developer",
+  "subHeadline": "Specialized in Angular & React",
+  "description": "I build modern, responsive web applications using Angular and React, with a strong focus on performance and user experience.",
+
     "ctaProjects": "View Projects",
     "ctaCv": "Download CV"
   },

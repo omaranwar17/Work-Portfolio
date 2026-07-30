@@ -1,4 +1,4 @@
-<div class="text-foreground pt-6 w-full  transition-all duration-300">
+<!-- <div class="text-foreground pt-6 w-full  transition-all duration-300">
   <nav class="w-full md:w-8/12 mx-auto">
     <div class="flex flex-wrap justify-between items-center py-2 px-3 md:px-1 md:px-0 gap-2">
       <button
@@ -107,4 +107,136 @@
       </li>
     </ul>
   </nav>
-</div>
+</div> -->
+
+
+
+<nav class="w-full md:w-10/12 mx-auto">
+
+  <div class="flex items-center justify-between py-3">
+
+    <!-- Logo -->
+    <a
+      routerLink="/home"
+      class="text-2xl font-bold text-accent md:p-0 p-4">
+      {{ 'navbar.omar' | translate }}
+    </a>
+
+    <!-- Desktop Menu -->
+    <ul class="hidden md:flex items-center gap-6 font-semibold">
+
+      <li><a routerLink="/about">{{ 'navbar.about' | translate }}</a></li>
+
+      <li><a routerLink="/skills">{{ 'navbar.skills' | translate }}</a></li>
+
+      <li><a routerLink="/projects">{{ 'navbar.projects' | translate }}</a></li>
+
+      <li><a routerLink="/contact">{{ 'navbar.contact' | translate }}</a></li>
+
+    </ul>
+
+    <!-- Right Side -->
+    <div class="hidden md:flex items-center gap-3">
+
+      <!-- Language -->
+        <div class="inline-flex items-center gap-1 rounded-full bg-nav-surface/90 px-1 py-1 shadow-sm ring-1 ring-slate-900/10 backdrop-blur-sm">
+          <button
+            *ngFor="let lang of availableLanguages()"
+            type="button"
+            (click)="setLanguage(lang)"
+            [attr.aria-label]="'navbar.languageLabel' | translate"
+            [ngClass]="{
+              'bg-accent text-accent-contrast shadow-lg': lang === currentLang(),
+              'text-slate-700 dark:text-slate-200 hover:bg-white/10': lang !== currentLang()
+            }"
+            class="rounded-full px-3 py-1 text-xs font-semibold transition duration-300"
+          >
+            {{ lang === 'en' ? 'EN' : 'ع' }}
+          </button>
+        </div>
+
+        <button
+          type="button"
+          (click)="toggleTheme()"
+          class="rounded-full p-2 text-menu-accent hover:opacity-90 focus:outline-none focus-visible:ring-2 focus-visible:ring-accent"
+          [attr.aria-label]="
+            theme() === 'dark'
+              ? ('navbar.themeSwitchLight' | translate)
+              : ('navbar.themeSwitchDark' | translate)
+          "
+          [attr.aria-pressed]="theme() === 'dark'"
+        >
+          <i class="fa-solid text-lg" [ngClass]="theme() === 'dark' ? 'fa-sun' : 'fa-moon'" aria-hidden="true"></i>
+        </button>
+
+      <!-- Theme -->
+
+    </div>
+
+    <!-- Mobile Button -->
+    <button
+      class="md:hidden p-4"
+      (click)="toggleMenu()">
+
+      <i class="fa-solid fa-bars text-2xl"></i>
+
+    </button>
+
+  </div>
+
+  <!-- Mobile Menu -->
+
+  <div
+    *ngIf="isMenuOpen"
+    class="md:hidden rounded-xl bg-nav-surface mt-3 p-4">
+
+    <!-- <a routerLink="/home" class="block py-3">{{ 'navbar.omar' | translate }}</a> -->
+
+    <a routerLink="/about" class="block py-3">{{ 'navbar.about' | translate }}</a>
+
+    <a routerLink="/skills" class="block py-3">{{ 'navbar.skills' | translate }}</a>
+
+    <a routerLink="/projects" class="block py-3">{{ 'navbar.projects' | translate }}</a>
+
+    <a routerLink="/contact" class="block py-3">{{ 'navbar.contact' | translate }}</a>
+
+    <div class="flex justify-between items-center mt-4">
+
+      <!-- Language -->
+        <div class="inline-flex items-center gap-1 rounded-full bg-nav-surface/90 px-1 py-1 shadow-sm ring-1 ring-slate-900/10 backdrop-blur-sm">
+          <button
+            *ngFor="let lang of availableLanguages()"
+            type="button"
+            (click)="setLanguage(lang)"
+            [attr.aria-label]="'navbar.languageLabel' | translate"
+            [ngClass]="{
+              'bg-accent text-accent-contrast shadow-lg': lang === currentLang(),
+              'text-slate-700 dark:text-slate-200 hover:bg-white/10': lang !== currentLang()
+            }"
+            class="rounded-full px-3 py-1 text-xs font-semibold transition duration-300"
+          >
+            {{ lang === 'en' ? 'EN' : 'ع' }}
+          </button>
+        </div>
+
+        <button
+          type="button"
+          (click)="toggleTheme()"
+          class="rounded-full p-2 text-menu-accent hover:opacity-90 focus:outline-none focus-visible:ring-2 focus-visible:ring-accent"
+          [attr.aria-label]="
+            theme() === 'dark'
+              ? ('navbar.themeSwitchLight' | translate)
+              : ('navbar.themeSwitchDark' | translate)
+          "
+          [attr.aria-pressed]="theme() === 'dark'"
+        >
+          <i class="fa-solid text-lg" [ngClass]="theme() === 'dark' ? 'fa-sun' : 'fa-moon'" aria-hidden="true"></i>
+        </button>
+
+      <!-- Theme -->
+
+    </div>
+
+  </div>
+
+</nav>
