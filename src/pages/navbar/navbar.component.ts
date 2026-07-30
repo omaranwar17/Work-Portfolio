@@ -1,4 +1,4 @@
-import { NgClass, NgFor } from '@angular/common';
+import { CommonModule, NgClass, NgFor } from '@angular/common';
 import { Component, computed, inject } from '@angular/core';
 import { RouterLink, RouterLinkActive } from '@angular/router';
 import { TranslateModule } from '@ngx-translate/core';
@@ -9,7 +9,7 @@ import { LanguageService, SupportedLang } from '../../app/core/i18n/language.ser
 @Component({
   selector: 'app-navbar',
   standalone: true,
-  imports: [RouterLink, RouterLinkActive, NgClass, NgFor, TranslateModule],
+  imports: [RouterLink, RouterLinkActive, NgClass, NgFor, CommonModule , TranslateModule],
   templateUrl: './navbar.component.html',
   styleUrl: './navbar.component.css',
 })

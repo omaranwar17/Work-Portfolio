@@ -20,7 +20,7 @@
       {{ 'home.greeting' | translate }}
 
       <span
-        class="bg-accent px-4 py-1 rounded-full text-badge-on-accent inline-block hover:scale-105 transition-transform duration-300"
+        class="text-accent px-4 py-1 duration-300"
       >
         {{ 'home.name' | translate }}
       </span>
@@ -38,9 +38,33 @@
   {{ 'home.headline' | translate }}
 </h1> 
 
+<!-- Tech Stack -->
+<!-- Tech Stack -->
+<div
+  class="mt-4 flex flex-wrap justify-center lg:justify-start gap-3 animate-slideUp delay-300">
+
+  <span class="rounded-full border border-accent/40 bg-accent/10 px-4 py-2 text-sm text-accent">
+    Angular
+  </span>
+
+  <span class="rounded-full border border-accent/40 bg-accent/10 px-4 py-2 text-sm text-accent">
+    React
+  </span>
+  <span class="rounded-full border border-accent/40 bg-accent/10 px-4 py-2 text-sm text-accent">
+    JavaScript
+  </span>
+
+   <span class="rounded-full border border-accent/40 bg-accent/10 px-4 py-2 text-sm text-accent">
+    TypeScript
+  </span>
+
+  
+
+</div>
+
     <!-- Description -->
     <p
-      class="max-w-3xl text-md sm:text-lg md:text-xl leading-tight animate-slideUp delay-300">
+      class=" text-md sm:text-lg md:text-xl leading-tight animate-slideUp delay-300">
       {{ 'home.description' | translate }}
     </p>
 
