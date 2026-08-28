@@ -11,7 +11,7 @@ import { TranslateModule, TranslateService } from '@ngx-translate/core';
   styleUrl: './contact.component.css'
 })
 export class ContactComponent {
-  readonly linkedinUrl = 'http://www.linkedin.com/in/omar-anwar-561167326';
+  readonly linkedinUrl = 'https://www.linkedin.com/in/omar-anwar-561167326/';
   readonly email = 'omaranw13@gmail.com';
 
   readonly form = this.fb.group({
