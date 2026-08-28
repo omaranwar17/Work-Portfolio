@@ -19,7 +19,7 @@ export class AboutComponent implements OnInit {
 }
 
 animateYears(): void {
-  const target = 1;
+  const target = 2;
   const duration = 1000; 
   const stepTime = duration / target;
 
