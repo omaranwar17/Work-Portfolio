@@ -34,7 +34,7 @@ animateYears(): void {
 
 
   openCV(): void {
-    window.open('assets/Omar_Anwar_cv.pdf', '_blank');
+    window.open('assets/omar_anwarCV.pdf', '_blank');
     this.showDialog = false;
   }
 }

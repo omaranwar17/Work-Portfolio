@@ -10,4 +10,9 @@ import { TranslateModule } from '@ngx-translate/core';
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })
-export class HomeComponent {}
+export class HomeComponent {
+  techStack = [
+  '.NET', 'ASP.NET Core', 'C#', 'SQL Server',
+  'Angular', 'React', 'TypeScript', 'JavaScript'
+];
+}
