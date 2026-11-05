@@ -13,52 +13,56 @@
     "languageEnglish": "English",
     "languageArabic": "العربية"
   },
-  "home": {
-
+"home": {
   "tagline": "معرض أعمالي",
   "greeting": "مرحبًا، أنا",
   "name": "عمر أنور",
-  "headline": "مطور واجهات أمامية",
-  "subHeadline": "متخصص في Angular و React",
-"description": "أطوّر تطبيقات ويب حديثة وعالية الأداء باستخدام Angular وReact، مع الاهتمام ببناء واجهات مستخدم تفاعلية، وكتابة كود نظيف، وتقديم تجربة استخدام سلسة ومتوافقة مع أفضل معايير التطوير.",
-    "ctaProjects": "عرض المشاريع",
-    "ctaCv": "تحميل السيرة الذاتية"
-  },
-  "about": {
-    "title": "من أنا",
-
-  "intro": "مطور واجهات أمامية شغوف، متخصص في Angular وReact، بأقدم مواقع وتطبيقات ويب حديثة، سريعة، وسهلة الاستخدام. بحول التصاميم لتجارب تفاعلية بمعايير كتابة كود نظيفة وقابلة للتطوير.",
+  "headline": "مطور Full Stack",
+  "subHeadline": "متخصص في .NET وSQL Server وAngular وReact",
+  "description": "أطوّر تطبيقات ويب متكاملة من الواجهة للخلفية: أبني واجهات تفاعلية باستخدام Angular وReact، وأنشئ APIs قوية بـ ASP.NET Core، وأصمم قواعد بيانات SQL Server محسّنة الأداء، مع الاهتمام بكتابة كود نظيف وقابل للتوسع.",
+  "ctaProjects": "عرض المشاريع",
+  "ctaCv": "تحميل السيرة الذاتية"
+},
+"about": {
+  "title": "من أنا",
+  "intro": "مطور Full Stack شغوف، بجمع بين .NET و SQL Server من ناحية الـ Backend، وAngular وReact من ناحية الواجهات. ببني تطبيقات ويب متكاملة، سريعة، وسهلة الاستخدام، من تصميم قاعدة البيانات وكتابة الـ APIs لحد تجربة المستخدم النهائية، بكود نظيف وقابل للتطوير.",
   "experienceYears": "خبرة",
-  "experienceLabel": "أكثر من سنتين خبرة في Angular وReact",
+  "experienceLabel": "أكثر من سنتين خبرة في تطوير الواجهات، وتطوير Full Stack بـ .NET وSQL Server",
   "resumeButton": "عرض السيرة الذاتية",
   "dialogTitle": "تحميل السيرة الذاتية",
   "dialogBody": "يمكنك مراجعة أو تنزيل سيرتي الذاتية الأخيرة للاطلاع على خبرتي ومهاراتي.",
   "viewCV": "فتح السيرة الذاتية",
   "cancel": "إلغاء"
-
-  },
-  "skills": {
-    "title": "المهارات",
-    "subtitle": "التقنيات التي أستخدمها",
-    "description": "مجموعة من الأدوات والأطر التي أستخدمها لبناء تطبيقات واجهة أمامية احترافية.",
-    "items": {
-      "html": { "label": "HTML", "alt": "HTML" },
-      "css": { "label": "CSS", "alt": "CSS" },
-      "javascript": { "label": "JavaScript", "alt": "JavaScript" },
-      "bootstrap": { "label": "Bootstrap", "alt": "Bootstrap" },
-      "tailwind": { "label": "Tailwind CSS", "alt": "Tailwind CSS" },
-      "jquery": { "label": "jQuery", "alt": "jQuery" },
-      "angular": { "label": "Angular", "alt": "Angular" },
-      "typescript": { "label": "TypeScript", "alt": "TypeScript" },
-      "sass": { "label": "SASS", "alt": "SASS" },
-      "figma": { "label": "Figma", "alt": "Figma" },
-      "git": { "label": "Git", "alt": "Git" },
-      "github": { "label": "GitHub", "alt": "GitHub" },
-      "react": { "label": "React", "alt": "React" },
-      "mui": { "label": "MUI", "alt": "MUI" },
-      "angularMaterial": { "label": "Angular Material", "alt": "Angular Material" }
-    }
-  },
+},
+"skills": {
+  "title": "المهارات",
+  "subtitle": "التقنيات التي أستخدمها",
+  "description": "مجموعة من الأدوات والأطر التي أستخدمها لبناء تطبيقات ويب متكاملة، من قواعد البيانات والـ APIs وصولًا إلى الواجهات التفاعلية.",
+  "items": {
+    "dotnet": { "label": ".NET", "alt": ".NET" },
+    "oop": { "label": "OOP", "alt": "البرمجة كائنية التوجه" },
+"efc": { "label": "EF Core", "alt": "Entity Framework Core" },
+"linq": { "label": "LINQ", "alt": "LINQ" },
+"mvc": { "label": "MVC", "alt": "ASP.NET MVC" },
+    "csharp": { "label": "C#", "alt": "C#" },
+    "sqlserver": { "label": "SQL Server", "alt": "SQL Server" },
+    "azureDevops": { "label": "Azure DevOps", "alt": "Azure DevOps" },
+    "angular": { "label": "Angular", "alt": "Angular" },
+    "react": { "label": "React", "alt": "React" },
+    "typescript": { "label": "TypeScript", "alt": "TypeScript" },
+    "javascript": { "label": "JavaScript", "alt": "JavaScript" },
+    "html": { "label": "HTML", "alt": "HTML" },
+    "css": { "label": "CSS", "alt": "CSS" },
+    "tailwind": { "label": "Tailwind CSS", "alt": "Tailwind CSS" },
+    "bootstrap": { "label": "Bootstrap", "alt": "Bootstrap" },
+    "sass": { "label": "SASS", "alt": "SASS" },
+    "mui": { "label": "MUI", "alt": "MUI" },
+    "git": { "label": "Git", "alt": "Git" },
+    "github": { "label": "GitHub", "alt": "GitHub" },
+    "figma": { "label": "Figma", "alt": "Figma" },
+    "postman": { "label": "Postman", "alt": "Postman" }
+  }
+},
   "projects": {
     "label": "المشاريع المميزة",
     "title": "أبرز الأعمال",
@@ -77,6 +81,18 @@
         "title": "متجر FreshCart الإلكتروني",
         "description": "تطبيق تجارة إلكترونية حديث بعناصر تسجيل دخول ومنتجات وسلة مشتريات وتصميم متجاوب وتجربة تسوق سلسة."
       },
+      "ecommerceFront": {
+  "title": "متجر إلكتروني متكامل (الواجهة الأمامية)",
+  "description": "واجهة متجر إلكتروني متكامل تشمل تصفح المنتجات وسلة المشتريات والفواتير وبوابة الدفع، مع لوحة تحكم للأدمن لإدارة المنتجات والطلبات."
+},
+"ecommerceApi": {
+  "title": "واجهة برمجة المتجر الإلكتروني (Backend API)",
+  "description": "الـ API الخلفي للمتجر مبني بـ ASP.NET Core وSQL Server، ويشمل المصادقة والصلاحيات والمنتجات والطلبات والفواتير والدفع."
+},
+"mvcCart": {
+  "title": "تطبيق سلة مشتريات بـ ASP.NET MVC",
+  "description": "تطبيق ويب مبني بنمط MVC مع Entity Framework Core وLINQ وقاعدة بيانات SQL Server لإدارة المنتجات وسلة المشتريات."
+},
         "weatherApp": {
       "title": "تطبيق الطقس",
       "description": "تطبيق طقس حديث مبني باستخدام Angular يعرض حالة الطقس الحالية وتوقعات 7 أيام باستخدام Weather API مع دعم الوضع الليلي."

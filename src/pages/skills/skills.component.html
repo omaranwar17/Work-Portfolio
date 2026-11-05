@@ -1,6 +1,3 @@
-
-
-
 <div class="overflow-x-hidden scroll-smooth text-foreground min-h-screen flex flex-col items-center justify-center px-6 py-14">
 
   <div class="max-w-6xl w-full flex flex-col sm:flex-row items-start gap-10">
@@ -16,11 +13,11 @@
           {{ 'skills.title' | translate }}
         </p>
 
-        <h2 class="text-3xl md:text-5xl leading-tight  font-bold mb-6">
+        <h2 class="text-3xl md:text-5xl leading-tight font-bold mb-6">
           {{ 'skills.subtitle' | translate }}
         </h2>
 
-        <p class="max-w-2xl text-base leading-tight leading-8">
+        <p class="max-w-2xl text-base leading-8">
           {{ 'skills.description' | translate }}
         </p>
 
@@ -34,8 +31,7 @@
       <ng-container *ngFor="let skill of skills; let i = index">
 
         <div
-          class="flex flex-col items-center group
-          animate-fade-in-up"
+          class="flex flex-col items-center group animate-fade-in-up"
           [style.animationDelay]="i * 80 + 'ms'">
 
           <!-- Icon -->
@@ -50,16 +46,17 @@
 
             <img
               [src]="skill.icon"
-              [alt]="skill.altKey | translate"
+              [alt]="'skills.items.' + skill.key + '.alt' | translate"
               class="w-10 h-10" />
 
           </div>
 
           <!-- Label -->
-          <span class="text-sm font-medium text-center
+          <span
+            class="text-sm font-medium text-center
             group-hover:text-blue-400 transition-colors duration-300">
 
-            {{ skill.labelKey | translate }}
+            {{ 'skills.items.' + skill.key + '.label' | translate }}
 
           </span>
 

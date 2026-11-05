@@ -43,19 +43,10 @@
 <div
   class="mt-4 flex flex-wrap justify-center lg:justify-start gap-3 animate-slideUp delay-300">
 
-  <span class="rounded-full border border-accent/40 bg-accent/10 px-4 py-2 text-sm text-accent">
-    Angular
-  </span>
-
-  <span class="rounded-full border border-accent/40 bg-accent/10 px-4 py-2 text-sm text-accent">
-    React
-  </span>
-  <span class="rounded-full border border-accent/40 bg-accent/10 px-4 py-2 text-sm text-accent">
-    JavaScript
-  </span>
-
-   <span class="rounded-full border border-accent/40 bg-accent/10 px-4 py-2 text-sm text-accent">
-    TypeScript
+ <span
+    *ngFor="let tech of techStack"
+    class="rounded-full border border-accent/40 bg-accent/10 px-4 py-2 text-sm text-accent">
+    {{ tech }}
   </span>
 
   
@@ -94,7 +85,7 @@
 </a>
 
 <a
-  href="assets/Omar_Anwar_cv.pdf"
+  href="assets/omar_anwarCV.pdf"
   target="_blank"
   class="group inline-flex items-center justify-center
   rounded-full 

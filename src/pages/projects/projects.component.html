@@ -132,21 +132,18 @@
 
             </a>
 
-            <a
-              [href]="project.demo"
-              target="_blank"
-              class="flex-1 text-center px-6 py-3 rounded-2xl
-              bg-accent text-black
-              font-bold
-              transition-all duration-300
-              hover:opacity-90
-              hover:shadow-lg
-              hover:shadow-accent/30
-              hover:scale-[1.03]">
+      <a
+  *ngIf="project.demo"
+  [href]="project.demo"
+  target="_blank"
+  class="flex-1 text-center px-6 py-3 rounded-2xl
+  bg-accent text-black font-bold
+  transition-all duration-300
+  hover:opacity-90 hover:shadow-lg hover:shadow-accent/30 hover:scale-[1.03]">
 
-              {{ 'projects.buttons.liveDemo' | translate }}
+  {{ 'projects.buttons.liveDemo' | translate }}
 
-            </a>
+</a>
 
           </div>
 

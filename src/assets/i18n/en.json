@@ -13,53 +13,56 @@
     "languageEnglish": "English",
     "languageArabic": "العربية"
   },
-  "home": {
-  
-  "tagline": "Web Portfolio",
+"home": {
+  "tagline": "MY PORTFOLIO",
   "greeting": "Hi, I'm",
   "name": "Omar Anwar",
-  "headline": "Frontend Developer",
-  "subHeadline": "Specialized in Angular & React",
-"description": "I develop modern, high-performance web applications with Angular and React, focusing on clean, maintainable code, scalable architecture, and delivering intuitive, user-friendly experiences.",
-    "ctaProjects": "View Projects",
-    "ctaCv": "Download CV"
-  },
-  "about": {
-
-   "title": "About Me",
-  "intro": "A dedicated Front-End Developer specializing in Angular and React, focused on building modern, fast, and user-friendly web applications. I turn designs into interactive experiences using clean, scalable code.",
+  "headline": "Full Stack Developer",
+  "subHeadline": "Specialized in .NET, SQL Server, Angular & React",
+  "description": "I build end-to-end web applications, from the interface to the backend: interactive UIs with Angular and React, robust APIs with ASP.NET Core, and performance-optimized SQL Server databases, with a focus on clean, scalable code.",
+  "ctaProjects": "View Projects",
+  "ctaCv": "Download CV"
+},
+"about": {
+  "title": "About Me",
+  "intro": "I'm a passionate Full Stack Developer combining .NET and SQL Server on the backend with Angular and React on the frontend. I build complete web applications that are fast and easy to use, from database design and API development to the final user experience, with clean, scalable code.",
   "experienceYears": "Experience",
-  "experienceLabel": "2+ Year in Angular & React Development",
+  "experienceLabel": "2+ years of frontend development, plus Full Stack development with .NET and SQL Server",
   "resumeButton": "View Resume",
-  "dialogTitle": "Download CV",
-  "dialogBody": "You can review or download my latest curriculum vitae to learn more about my experience and skill set.",
-  "viewCV": "Open CV",
+  "dialogTitle": "Download Resume",
+  "dialogBody": "You can review or download my latest resume to see my experience and skills.",
+  "viewCV": "Open Resume",
   "cancel": "Cancel"
-
-
-  },
-  "skills": {
-    "title": "Skills",
-    "subtitle": "Technologies I Use",
-    "description": "A curated set of tools and frameworks I use to deliver professional front-end applications.",
-    "items": {
-      "html": { "label": "HTML", "alt": "HTML" },
-      "css": { "label": "CSS", "alt": "CSS" },
-      "javascript": { "label": "JavaScript", "alt": "JavaScript" },
-      "bootstrap": { "label": "Bootstrap", "alt": "Bootstrap" },
-      "tailwind": { "label": "Tailwind CSS", "alt": "Tailwind CSS" },
-      "jquery": { "label": "jQuery", "alt": "jQuery" },
-      "angular": { "label": "Angular", "alt": "Angular" },
-      "typescript": { "label": "TypeScript", "alt": "TypeScript" },
-      "sass": { "label": "SASS", "alt": "SASS" },
-      "figma": { "label": "Figma", "alt": "Figma" },
-      "git": { "label": "Git", "alt": "Git" },
-      "github": { "label": "GitHub", "alt": "GitHub" },
-      "react": { "label": "React", "alt": "React" },
-      "mui": { "label": "MUI", "alt": "MUI" },
-      "angularMaterial": { "label": "Angular Material", "alt": "Angular Material" }
-    }
-  },
+},
+"skills": {
+  "title": "Skills",
+  "subtitle": "Technologies I Use",
+  "description": "A set of tools and frameworks I use to build complete web applications, from databases and APIs to interactive user interfaces.",
+  "items": {
+    "dotnet": { "label": ".NET", "alt": ".NET" },
+    "csharp": { "label": "C#", "alt": "C#" },
+    "oop": { "label": "OOP", "alt": "Object-Oriented Programming" },
+"efc": { "label": "EF Core", "alt": "Entity Framework Core" },
+"linq": { "label": "LINQ", "alt": "LINQ" },
+"mvc": { "label": "MVC", "alt": "ASP.NET MVC" },
+    "sqlserver": { "label": "SQL Server", "alt": "SQL Server" },
+    "azureDevops": { "label": "Azure DevOps", "alt": "Azure DevOps" },
+    "angular": { "label": "Angular", "alt": "Angular" },
+    "react": { "label": "React", "alt": "React" },
+    "typescript": { "label": "TypeScript", "alt": "TypeScript" },
+    "javascript": { "label": "JavaScript", "alt": "JavaScript" },
+    "html": { "label": "HTML", "alt": "HTML" },
+    "css": { "label": "CSS", "alt": "CSS" },
+    "tailwind": { "label": "Tailwind CSS", "alt": "Tailwind CSS" },
+    "bootstrap": { "label": "Bootstrap", "alt": "Bootstrap" },
+    "sass": { "label": "SASS", "alt": "SASS" },
+    "mui": { "label": "MUI", "alt": "MUI" },
+    "git": { "label": "Git", "alt": "Git" },
+    "github": { "label": "GitHub", "alt": "GitHub" },
+    "figma": { "label": "Figma", "alt": "Figma" },
+    "postman": { "label": "Postman", "alt": "Postman" }
+  }
+},
   "projects": {
     "label": "Featured Projects",
     "title": "Portfolio Highlights",
@@ -78,6 +81,18 @@
         "title": "FreshCart E-Commerce",
         "description": "Full modern ecommerce app with authentication, products, cart system, dark mode, and responsive shopping experience."
       },
+      "ecommerceFront": {
+  "title": "Full E-Commerce Store (Frontend)",
+  "description": "A complete e-commerce storefront with product browsing, cart, invoices and payment, plus an admin dashboard to manage products and orders."
+},
+"ecommerceApi": {
+  "title": "E-Commerce REST API (Backend)",
+  "description": "The store's backend built with ASP.NET Core and SQL Server, covering authentication, authorization, products, orders, invoices and payments."
+},
+"mvcCart": {
+  "title": "ASP.NET MVC Shopping Cart App",
+  "description": "An MVC web application using Entity Framework Core, LINQ and SQL Server to manage products and a shopping cart."
+},
       "taskManager": {
         "title": "Task Management App",
         "description": "Clean productivity app for managing daily tasks with a polished UI and optimized workflow."
